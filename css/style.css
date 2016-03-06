@@ -147,7 +147,7 @@ div.container {
 
 }
 
-.nav, .calc {
+.nav, .calc, .result {
   margin-left: 128px;
 }
 
@@ -215,3 +215,29 @@ ul.filter > li:hover{
   color: #777777;
 }
 /*******************************result*****************************************/
+
+div.result{
+  width: 512px;
+}
+
+.hint {
+  padding: 10px;
+  font-size: small;
+}
+.hint a{
+  color: #1a0dab;
+  text-decoration: none;
+}
+.hint p {
+  padding-bottom: 15px;
+}
+
+.find-block {
+  height: 92px;
+}
+.find-block h3 {
+  font-size: 18px;
+}
+.find-block a {
+  color: #1a0dab;
+}
