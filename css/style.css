@@ -255,7 +255,7 @@ div.result{
 .find-block a.translate {
   font-size: 14px;
 }
-.find-block .a-little {
+.a-little {
   font-size: 13px;
 }
 
@@ -375,4 +375,74 @@ div.picture {
 }
 /************************************goooooooooooooooogle/********************/
 
-div.
+div.gooooogle {
+  float: left;
+  width: 528px;
+  height: 55px;
+}
+
+div.gooooogle {
+  float: left;
+  width: 325px;
+  margin: 30px 100px 30px 100px;
+}
+
+.gooooogle span {
+  float: left;
+  height: 40px;
+  display: block;
+}
+
+.gooooogle  a{
+  float: left;
+  color: #4285f4;
+  margin-top: 40px;
+  font-size: 13px;
+
+}
+
+.g{
+  background:url(../img/logo.png) no-repeat;
+  background-position:-24px 0;
+  width:28px;
+}
+.o1{
+  background:url(../img/logo.png) no-repeat;
+  background-position:-53px 0;
+  width:20px;
+}
+.o2{
+  background:url(../img/logo.png) no-repeat;
+  background-position:-74px 0;
+  width:20px;
+}
+.gle{
+  background:url(../img/logo.png) no-repeat;
+  background-position:-96px 0;
+  width:71px;
+}
+/***************************************footer*********************************/
+div.footer{
+  padding-left: 128px;
+  clear: both;
+  height: 84px;
+  background-color: #f2f2f2;
+}
+
+.footer-link1, .footer-link2{
+  margin-top: 15px;
+}
+
+.link{
+  color:#777;
+  font-weight: normal;
+}
+
+.invisible {
+  color:#aaa;
+  pointer-events: none;
+}
+
+.footer-link2 a{
+  padding-right:20px;
+}
