@@ -12,6 +12,14 @@ hr {
     border: 0;
     border-top: 1px solid #ebebeb;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 /******************************div-header**************************************/
 div.header {
   width: 100%;
@@ -233,11 +241,138 @@ div.result{
 }
 
 .find-block {
-  height: 92px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .find-block h3 {
   font-size: 18px;
+  color: #1a0dab;
+  font-weight: normal;
 }
 .find-block a {
   color: #1a0dab;
 }
+.find-block a.translate {
+  font-size: 14px;
+}
+.find-block .a-little {
+  font-size: 13px;
+}
+
+.find-block p {
+  font-size: 13px;
+  color: #777;
+}
+.find-block cite {
+  float: left;
+  color: #006621;
+  font-size: 14px;
+  font-style: normal;
+}
+
+div.strilka-block {
+  position: relative;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right:8px;
+  margin-left:3px;
+}
+.strilka {
+  cursor: pointer;
+  border: 5px solid transparent;
+  border-top-color: #006621;
+  border-bottom: 0;
+}
+.strilka ul li {
+  list-style-type: none;
+
+}
+.strilka ul{
+  display: none;
+  background-repeat: repeat-x;
+  width: 74px;;
+  height: 62px;
+  box-shadow:0 5px 5px rgba(0,0,0,0.3);
+  color: #333333;
+  background-color:#fff;
+}
+.strilka:active ul {
+  display: block;
+  z-index:9999;
+}
+/**************************picture*********************************************/
+div.picture {
+  width: 518px;
+  height: 170px;
+}
+.picture-start a{
+  float: left;
+  color: #1a0dab;
+  font-size: 18px;
+  text-decoration: none;
+}
+.picture-start a:hover{
+  text-decoration: underline;
+}
+
+.picture-left a {
+  float: right;
+  color: #808080;
+  font-size: 13px;
+  text-decoration: none;
+}
+.picture-left a:hover {
+  text-decoration: underline;
+}
+
+.picture-container {
+  clear: both;
+  padding-top: 10px;
+  height: 92px;
+}
+.picture-container img {
+  float: left;
+}
+
+.picture-end {
+  margin-top: 20px;
+}
+.picture-end a {
+  color: #1a0dab;
+  font-size: 16px;
+  text-decoration: none;
+}
+.picture-end a:hover {
+  text-decoration: underline;
+}
+
+/********************container-footer***************************************/
+
+.container-footer {
+  height: 125px;
+  padding-bottom: 30px;
+}
+
+.container-footer p {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  color: #808080;
+  font-size: 18px;
+}
+
+.cont-footer-block p, .cont-footer-block a{
+  color: #1a0dab;
+  font-size: 13px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.c-f_left{
+  float: left;
+}
+/************************************goooooooooooooooogle/********************/
+
+div.
